@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-Helper</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/dc52aaeb9d.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Login-Helper</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="input_container">
+                <input type="email" placeholder="exemple@mail.com">
+                <div class="password_container">
+                    <input type="password" id="field_password" class="field_password" placeholder="*******">
+                    <i class="fa-solid fa-eye" id="eye"></i>
+                    <i class="fa-solid fa-eye-slash" id="eye_slash"></i>
+                </div>
+            </section>
+
+            <section class="password_infos">
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <span>Lembrar senha</span>
+                </div>
+                <a href="#">Esqueceu sua senha</a>
+            </section>
+
+            <button id="btn_login">Login</button>
+            
+            <section class="links_container">
+                <span>Ou entre com:</span>
+                <aside>
+                    <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
