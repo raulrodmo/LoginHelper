@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    color: white;
 }
 
 header{
@@ -92,4 +93,134 @@ main form .password_container i{
 
 main form .password_container #eye{
     display: none;
+}
+
+main form .password_infos{
+    width: 90%;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form .password_infos a{
+    transition: 0.2s ease-in-out;
+}
+
+main form .password_infos a:hover{
+    color:#18acfe;
+}
+
+main form button{
+    background-color: #18acfe;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+main form button:hover{
+    background: white;
+    color:#18acfe;
+}
+
+main form .links_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+main form .links_container span{
+    font-size:0.8em;
+    font-weight: 600;
+}
+
+main form .links_container aside{
+    margin-top: 5%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+main form .links_container aside i{
+    font-size: 1.6em;
+    background-color: white;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .links_container aside .google{
+    color: #e34133;
+}
+
+
+main form .links_container aside .google:hover{
+    background-color: #e34133;
+    color: white;
+}
+main form .links_container aside .linkedin{
+    color: #0a66c2;
+}
+
+main form .links_container aside .linkedin:hover{
+    background-color: #0a66c2;
+    color: white;
+}
+
+main form .links_container aside .github{
+    color: black;
+}
+
+main form .links_container aside .github:hover{
+    background-color: black;
+    color: white;
+}
+
+main form footer{
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+main form footer span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+
+main form footer a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+main form footer a:hover{
+    color: #18acfe;
 }
