@@ -19,10 +19,12 @@ header h1{
     font-size: 2.5em;
     color: white;
 }
-
+body{
+   background-color: #0166e1; 
+}
 main{
     width: 100%;
-    min-height: 90.4vh;
+    height:max-content;
     background: linear-gradient(#18acfe, #0166e1);
 
     display: flex;
@@ -32,13 +34,14 @@ main{
 }
 
 main form{
-    margin-top: 5%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     width: 35%;
-    height: 75vh;
+    height: max-content;
     background-color: rgb(92, 92, 92);
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
-    padding: 2%;
+    padding: 1rem;
 
     display: flex;
     flex-direction: column;
@@ -46,7 +49,7 @@ main form{
 }
 
 main form .input_container{
-    margin-top: 10%;
+    margin-top: 2rem;
     width: 100%;
 
     display: flex;
@@ -56,13 +59,13 @@ main form .input_container{
 
 main form .input_container input{
     width: 90%;
-    height: 45px;
-    padding: 8px 15px;
+    height: 35px;
+    padding: .5rem 1rem;
     border: 0;
     outline: 0;
     border-radius: 12px;
 
-    font-size: 16px;
+    font-size: 1rem;
     color: #312e42;
 
     box-shadow: 0px 3px 3px rgba(0,0,0,0.25);
@@ -136,7 +139,7 @@ main form .links_container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 2rem;
 }
 
 main form .links_container span{
@@ -145,7 +148,7 @@ main form .links_container span{
 }
 
 main form .links_container aside{
-    margin-top: 5%;
+    margin-top: 1rem;
     width: 50%;
 
     display: flex;
@@ -172,11 +175,11 @@ main form .links_container aside .google{
     color: #e34133;
 }
 
-
 main form .links_container aside .google:hover{
     background-color: #e34133;
     color: white;
 }
+
 main form .links_container aside .linkedin{
     color: #0a66c2;
 }
@@ -197,7 +200,7 @@ main form .links_container aside .github:hover{
 
 main form footer{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 2rem;
 
     display: flex;
     flex-direction: column;
@@ -213,7 +216,7 @@ main form footer hr{
 main form footer span{
     font-weight: 400;
     font-size: 0.9em;
-    margin-top: 5%;
+    margin-top: 1rem;
 }
 
 main form footer a{
