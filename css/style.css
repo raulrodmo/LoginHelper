@@ -21,6 +21,8 @@ header h1{
 }
 body{
    background-color: #0166e1; 
+   height: 100vh;
+   width: 100vw;
 }
 main{
     width: 100%;
